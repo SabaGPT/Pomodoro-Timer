@@ -4,7 +4,7 @@ import vue from '@vitejs/plugin-vue';
 
 export default defineConfig({
   plugins: [vue()],
-  base: '/Pomodoro-Timer/',  // 确保这里匹配您的 GitHub 项目名
+  base: '/Pomodoro-Timer/',  // 匹配你的 GitHub Pages 项目路径
 
   resolve: {
     alias: {
