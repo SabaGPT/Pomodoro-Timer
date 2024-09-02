@@ -2,13 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <link rel="icon" href="favicon.ico"> <!-- 修改了路径，确保 favicon.ico 也能正确加载 -->
+  <!-- 更新 favicon.ico 路径指向 public 文件夹 -->
+  <link rel="icon" href="public/favicon.ico">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Vite App</title>
 </head>
 <body>
   <div id="app"></div>
-  <!-- 修改了路径，从 /src/main.js 改为 src/main.js 使其相对于 index.html 的位置 -->
+  <!-- 如果 main.js 在 src 文件夹里，并且 src 文件夹位于根目录 -->
   <script type="module" src="src/main.js"></script>
 </body>
 </html>
