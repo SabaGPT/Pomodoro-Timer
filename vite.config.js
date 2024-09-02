@@ -1,12 +1,10 @@
-import { defineConfig } from "vite";
-import vue from "@vitejs/plugin-vue";
+import { defineConfig } from 'vite'
+import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
-  base: "/Pomodoro-Timer/", // 添加这一行
+  base: '/Pomodoro-Timer/',
   plugins: [vue()],
-  resolve: {
-    alias: {
-      "@": "/src",
-    },
+  build: {
+    outDir: 'dist', // 确保这里设置正确
   },
-});
+})
